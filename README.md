@@ -1,5 +1,5 @@
 # minimips64
-This is my MIPS R4300i assembler and disassembler. I designed it to be super minimalistic and compact. `valgrind` reports no errors, and compiling with GCC's `-Wall -Wextra` produces no warnings.
+This is my MIPS R4300i assembler and disassembler. I designed it to be super minimalistic and compact. `valgrind` reports no errors, and compiling with GCC's `-Wall -Wextra` produces no warnings. [I also wrote an article about it.](https://z64.me/post/writing-minimips64)
 
 ![kokiri-tunic.asm](screenshot.jpg)
 
