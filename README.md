@@ -76,7 +76,7 @@ Prefix directives with the `>` token. For example, `> import "dmaext.txt"`. I ha
 	lui     v1, %hi(kRed)
 	sb      v0, %lo(kRed)(v1)       // red = time
 	sb      t0, %lo(kGreen)(v1)     // green = time * 4
-	sb      t0, %lo(kGreen)(v1)     // blue = time * 2
+	sb      t1, %lo(kBlue)(v1)      // blue = time * 2
 	jr      ra
 	nop
 
